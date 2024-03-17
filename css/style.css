@@ -56,6 +56,11 @@ ul {
     overflow-x: hidden;
 }
 
+.section.back-section
+{
+    z-index: 1;
+}
+
 .section.active {
     z-index: 2;
     opacity: 1;
@@ -64,11 +69,11 @@ ul {
 
 @keyframes slideSection {
     0% {
-        transform: translateY(100%);
+        transform: translateX(100%);
     }
 
     100% {
-        transform: translateY(0%);
+        transform: translateX(0%);
     }
 }
 
